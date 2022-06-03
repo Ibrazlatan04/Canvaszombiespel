@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Main Menu</title>
+    <embed src="/html/Star Wars.mp3" loop="true" autostart="true" width="2"
+         height="0"> <!-- Importerar ljudfilen som ska spelas i bakgrunden i menyn -->
+         <audio autoplay>
+            <source src="Star Wars.mp3" type="audio/mpeg" /> <!-- Här lägger jag till bakgrundsljud i menyn ljudet är mp3 och då ska de vara audio/mpeg -->
+          </audio>
+</head>
+<body>                                                  <!-- Meny för att starta spelet -->
+    <div class="gap">
+
+    </div>
+    <div class="container-fluid p-0">
+        <h1 class="display-1 text-center text-white m-0"><strong>ZOMBIE GAME</strong></h1> <!-- Titel -->
+    </div>
+    <div class="gap2">  <!-- div med gap2 class som jag har satt width: 100% på och height: 70px -->
+
+    </div>
+    <div class="container-fluid p-0">
+        <h1 class="display-6 text-center text-white m-0"> <!-- Här skriver jag in text som visas i menyn i spelets startsida -->
+            This is a game about survival
+        </h1>
+        <h1 class="display-6 text-center text-white m-0">
+            Try surviving as long as you possibly can from zombies
+        </h1>
+        <h1 class="display-6 text-center text-white">
+            To start press the button below
+        </h1>
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto"> 
+        <a href="zombie.html" class="btn btn-dark btn-lg"><u>Press 'Spacebar' to continue</u></a> <!-- Här gör jag programmerar jag knappen som man ska trycka på när man vill påbörja spelet  -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    background-image: url("https://i.pinimg.com/originals/30/fe/4e/30fe4e72939d8f8def73d7762c920f62.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h {
+    font-size: 60px;
+    color: darkred;
+}
+
+p {
+    font-size: 25px;
+    color: darkred;
+}
+
+.rubrik {
+    position: relative;
+    top: 120px;
+    right: 100px;
+    background-color:transparent;
+    text-align: center;
+}
+
+.kontroller {
+    position: relative;
+    text-align: center;
+    top: 105px;
+    right: 100px;
+}
+
+.button-easy {
+    position: relative;
+    left: 1000px;
+    border-radius: 20px;
+    background-color: rgba(73, 71, 71, 0.5);
+}
+
+.button-hard {
+    position: relative;
+    left: 445px;
+    top: 235px;
+    border-radius: 20px;
+    background-color: rgba(73, 71, 71, 0.5);
+}
+
+.button-easy:hover {
+    transform: scale(1.1);
+}
+
+.button-hard:hover {
+    transform: scale(1.1);
+}
